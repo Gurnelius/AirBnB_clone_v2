@@ -21,8 +21,8 @@ sudo echo "<html>
 
 sudo ln -sf /data/web_static/releases/test/ /data/web_static/current
 
-chown -R ubuntu /data/
-chgrp -R ubuntu /data/
+sudo hown -R ubuntu /data/
+sudo chgrp -R ubuntu /data/
 
 printf %s "server {
     listen 80 default_server;
