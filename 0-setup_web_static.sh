@@ -21,7 +21,7 @@ sudo echo "<html>
 
 sudo ln -sf /data/web_static/releases/test/ /data/web_static/current
 
-sudo hown -R ubuntu /data/
+sudo chown -R ubuntu /data/
 sudo chgrp -R ubuntu /data/
 
 printf %s "server {
